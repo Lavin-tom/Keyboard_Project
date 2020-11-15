@@ -1,0 +1,90 @@
+.main_content
+{
+    position: absolute;
+    width:100%;
+    height: 25%;
+    top: 35%;
+    color: white;
+}
+.userkeyboard
+{
+    position: absolute;
+    top:15%;
+    left: 10%;
+    width:80%;
+    height:20%;
+    font-size:x-large;
+    font-family:ubuntu Mono,Lucida Console,monospace;
+    /* background-color:lightblue; */
+}
+.userinput
+{
+    position: absolute;
+    top:35%;
+    left: 10%;
+    width:80%;
+    height:20%;
+    font-size:x-large;
+    
+     
+}
+.genwords
+{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+    font-size:xx-large;
+    font-family:ubuntu Mono,Lucida Console,monospace;
+    background-color: white;
+}
+.typeword
+{
+    position: absolute;
+    top:10%;
+    left:5%;
+    width:90%;
+    height:50%;
+    border-color: red;
+}
+.incorrect_char
+{
+    background-color:rgb(250, 95, 95);
+}
+.correct_char
+{
+ background-color:lightgreen;
+}
+.cpm .wpm
+{
+    display: none;
+    color: greenyellow;
+}
+.restart_btn
+{
+    position: absolute;
+    left:86%;
+    top: 1%;
+}
+#namerow
+{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    height:25%;
+    font-family:ubuntu Mono,Lucida Console,monospace;
+    font-size: smaller;
+    
+}
+#resultblock
+{
+    position: relative;
+    position: absolute;
+    top:75%;
+    left: 10%;
+    width: 80%;
+    
+    font-size: large;
+    font-family:ubuntu Mono,Lucida Console,monospace;
+}
